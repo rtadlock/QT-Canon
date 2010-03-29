@@ -1,0 +1,8 @@
+<!DOCTYPE RCC><RCC version="1.0">
+  <qresource>
+    <file>images/camera.svgz</file>
+    <file>images/play.svgz</file>
+    <file>images/stop.svgz</file>
+    <file>images/debug.svgz</file>
+  </qresource>
+</RCC>

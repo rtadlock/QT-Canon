@@ -1,1 +1,5 @@
-Just about everything...
+Add a file menu that allows user to edit config file to change location of tools (ffmpeg, gphoto)
+Add camera detection after app is started in Windows
+Build and test on Mac OSX
+Test and confirm delete photo functionality works correctly on both Windows and Linux
+Maybe ditch the Canon SDK on Windows and just go with gphoto

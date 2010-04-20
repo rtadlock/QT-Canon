@@ -1,1 +1,20 @@
-This is a Qt application that uses libgphoto2 and the Canon SDK to interface with Canon DSLRs.
+This is a Qt application that uses libgphoto2 on Linux and the Canon SDK on Windows to interface with Canon DSLRs.
+
+To build on Ubuntu/Debian:
+
+1. Install QT, libgphoto2, and git on your system if you don't already have them:
+	a. sudo apt-get install libqt4-dev
+		As a side note, I prefer to download the latest SDK from the QT website: http://qt.nokia.com/downloads
+	b. sudo apt-get install libgphoto2
+	c. sudo apt-get install git
+2. Clone the QT-Canon git repo with the following command: git clone git://github.com/rtadlock/QT-Canon.git
+3. Build the application:
+	a. Open a terminal and change into the directory where you cloned the repo
+	b. Run Qmake
+	c. Run Make
+
+To build on Windows:
+
+Note: Because we use the Canon SDK to build on Windows, you can't currently check out the project and build it on Windows unless you have the Canon SDK.
+
+We hope to have a binary distirbution soon.
